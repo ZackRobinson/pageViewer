@@ -22,5 +22,6 @@ public class MainActivity extends AppCompatActivity {
         ViewPagerAdapter vpAdapter = new ViewPagerAdapter(getSupportFragmentManager());
         viewPager.setAdapter(vpAdapter);
 
+        
     }
 }
