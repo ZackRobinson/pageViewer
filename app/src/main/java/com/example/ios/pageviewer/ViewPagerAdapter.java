@@ -9,7 +9,7 @@ import com.example.ios.pageviewer.frags.frag2;
 import com.example.ios.pageviewer.frags.frag3;
 
 /**
- * Created by ios on 9/30/17.
+ * Created by Chris on 9/30/17.
  */
 
 public class ViewPagerAdapter extends FragmentPagerAdapter {
@@ -38,19 +38,4 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
         return 3;
     }
 
-    /*@Override
-    public CharSequence getPageTitle(int position) {
-        switch(position)
-        {
-            case 0:
-                return "Frag 1";
-            case 1:
-                return "Frag 2";
-            case 2:
-                return "Frag 3";
-
-        }
-
-        return super.getPageTitle(position);
-    }*/
 }
